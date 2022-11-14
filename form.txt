@@ -1,0 +1,32 @@
+<div class="container">
+                <div class="row">
+                    <div class="card" style="width:100%; height:100%;">
+                    <div class="card-body">
+                        <form method="post" accept-charset="utf-8">
+                            <div class="row">
+                                <div class="col-md-6 form-group" style="text-align:centre;">
+                                   <label><b>select the place</b></label> 
+                                   <select class="selectpicker form-control" name="Location" id="">
+                                     
+                                   </select>
+                                </div>
+                                <div class="col-md-6 form-group" style="text-align:centre;">
+                                    <label><b>Enter BHK</b></label> 
+                                    <input type="text" class="form-control" id="bhk" name="bhk" placeholder="enter bhk">
+                                 </div>
+                                 <div class="col-md-6 form-group" style="text-align:centre;">
+                                    <label><b>Enter NO. of bedroom</b></label> 
+                                    <input type="text" class="form-control" id="bath" name="bath" placeholder="nter NO. of bedroom">
+                                 </div>
+                                 <div class="col-md-6 form-group" style="text-align:centre;">
+                                    <label><b>Enter square feet </b></label> 
+                                    <input type="text" class="form-control" id="total_sqft" name="total_sqft" placeholder="Enter square feet">
+                                 </div>
+                                 <div class="col-md-12 form-group">
+                                   <button class="btn btn-primary form-control" onclick="send.data()">Predict </button>
+                                 </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                </div>
